@@ -1,0 +1,2 @@
+# session-shopping
+这是一个用Session实现的简单购物车小程序，主要实现了用户关闭浏览器或者禁用了cookie也可以保持购物车记录的功能
