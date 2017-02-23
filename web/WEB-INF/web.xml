@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>BuyServlet</servlet-name>
+        <servlet-class>wangs.BuyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BuyServlet</servlet-name>
+        <url-pattern>/BuyServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ListCarServlet</servlet-name>
+        <servlet-class>wangs.ListCarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListCarServlet</servlet-name>
+        <url-pattern>/ListCarServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ListBookServlet</servlet-name>
+        <servlet-class>wangs.ListBookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListBookServlet</servlet-name>
+        <url-pattern>/ListBookServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
